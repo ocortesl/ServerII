@@ -1,0 +1,23 @@
+{
+  "name": "productoapi",
+  "version": "1.0.0",
+  "description": "API",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon .",
+    "start": "nodemon server.js"
+  },
+  "author": "ocortesl",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.13"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "install": "^0.13.0",
+    "mongoose": "^6.0.11",
+    "start": "^5.1.0"
+  }
+}
